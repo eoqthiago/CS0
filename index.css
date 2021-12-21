@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Boing;
+    font-weight: 400;
+    src: url('./fonts/boing-400.woff2');
+}
+
+@font-face {
+    font-family: Boing;
+    font-weight: 500;
+    src: url('./fonts/boing-500.woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.card{
+    width: 286px;
+    padding: 35px 30px ;
+    margin: 150px;
+    border-radius: 10px;
+    background-color: #33ccff;
+}
+
+h1{
+    font: 500 22px Boing;
+    font-weight: bold;
+}
+p{
+    font: 400 16px Boing;
+}
+
+img{
+    margin: 0 0 15;
+    
+}
+
+.b{
+    
+    font: 500 20px Boing;
+    background-color: #ffff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-top: 70px;
+    
+    
+}
